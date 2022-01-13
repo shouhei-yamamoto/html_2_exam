@@ -1,0 +1,83 @@
+html {
+    position: relative;
+    min-height: 100%;
+  }
+  body {
+    text-align: center;
+  }
+  .main-header {
+    width: 100%;
+    background-size: cover;
+    background-image: url("../images/header.jpg");
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+  }
+  /* ここから */
+  header {
+    background-color: #2B2B2B;
+    height: 50px;
+  }
+  header ul {
+    list-style: none;
+  }
+  header ul a {
+    color: white;
+    text-decoration: none;
+  }
+  header li {
+    padding: 15px;
+  }
+  header ul:after {
+  }
+  .left{
+    /*ブロック化しても左寄せにできない　自己コメ　liをdivで囲む？*/
+    display: table-cell;
+    text-align: left;
+    float: left;
+  }
+  .right{
+    float: right;
+  }
+  /* ここまでがheader部分の実装 */
+  .main-header img {
+  /* main画像（白い「Achieve」の文字の画像）部分の実装 */
+     width: 13%;
+  }
+  .about h1{
+  /* About Achieve部分の実装 */
+     font-size:1.5rem;
+  }
+  .about p{
+    font-size: 0.8rem;
+  }
+  /* ここから */
+  .function {
+    background-color: #D3D3D3;
+  }
+  .function-images {
+  }
+  .function-image {
+    display:inline-block;
+    padding: 40px;
+  }
+  /* ここまでがfunction部分の実装 */
+  footer {
+  /* footer部分の実装 */
+    height: 70px;
+    background-color: #283A4B;
+    font-size: 0.8rem; 
+    color: white;
+    /*display: inline-block;*/
+    vertical-align: middle;
+    /*display:table*/
+  }
+  .footer_text {
+    padding-top: 20px;
+  }
+  *{
+    margin:0;
+    padding:0;
+  }
